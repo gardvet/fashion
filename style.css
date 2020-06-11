@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#principal {
+    width: 1024px;
+    margin: auto;
+}
+.cabeçalho {
+    height: 50px;
+    background: #162028;
+    position: relative;
+
+}
+.logotipo {
+    margin: 10px 0 0 130px;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;    
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+} 
+.menu a {
+    color: #425544;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.menu a:hover {
+    color: white;
+} 
+.portfolio {
+    padding: 50px 100px;
+    text-align: center;
+}
+.portfolio h1 {
+    font-size: 36px;
+    color: #252525;
+}
+.portfolio p {
+    font-size: 16px;
+    color: #555;
+    line-height: 2;
+}
+.galery {
+    color: #555;
+    padding: 10px;
+    overflow: auto;
+    
+}
+.card {
+    width: 30%;
+    float: left;
+    text-align: center;
+   
+}
+.titulo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.about {
+    background-color: #003d52;
+    padding: 100px; 
+    color: white;
+    background-image: url(bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.about h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+}
+.about p {
+    line-height: 1.5;
+    height: 50%;
+}
+#contact {
+    margin: 50px 0;
+}
+#contact address {
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    background: #0b171f;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    
+}
